@@ -8,7 +8,6 @@ CREATE TABLE Users(
    lastname VARCHAR(100),
    age INT,
    DOB DATE,
-   password VARCHAR(100)
+   password VARCHAR(100),
    PRIMARY KEY(email, username)
 );
-
