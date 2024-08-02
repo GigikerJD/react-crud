@@ -8,7 +8,6 @@ import { FormControl,
     Link, 
     Alert} from "@mui/material";
 import axios from "axios";
-import { Form } from "react-router-dom";
 
 export const Signup = () => {
     const [email, setEmail] = useState("");
